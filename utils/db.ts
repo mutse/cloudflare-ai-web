@@ -70,6 +70,11 @@ export const textGenModels: Model[] = [{
     provider: 'workers-ai',
     type: 'chat'
 }, {
+    id: '@cf/microsoft/phi-2',
+    name: 'phi-2',
+    provider: 'workers-ai',
+    type: 'chat'
+}, {
     id: '@cf/qwen/qwen1.5-14b-chat-awq',
     name: 'qwen1.5-14b-chat-awq',
     provider: 'workers-ai',
@@ -77,6 +82,11 @@ export const textGenModels: Model[] = [{
 }, {
     id: '@cf/openchat/openchat-3.5-0106',
     name: 'openchat-3.5-0106',
+    provider: 'workers-ai',
+    type: 'chat'
+}, {
+    id: '@hf/google/gemma-7b-it',
+    name: 'gemma-7b-it',
     provider: 'workers-ai',
     type: 'chat'
 }, {
