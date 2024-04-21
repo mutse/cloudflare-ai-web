@@ -65,6 +65,11 @@ export const textGenModels: Model[] = [{
     endpoint: 'chat/completions',
     type: 'chat'
 }, {
+    id: '@hf/meta-llama/llama-3-8b-instruct',
+    name: 'Llama3-8b-instruct',
+    provider: 'workers-ai',
+    type: 'chat'
+}, {
     id: '@cf/meta/llama-3-8b-instruct',
     name: 'llama-3-8b-instruct',
     provider: 'workers-ai',
@@ -115,6 +120,11 @@ export const imageGenModels: Model[] = [{
     id: '@cf/lykon/dreamshaper-8-lcm',
     name: 'dreamshaper-8-lcm',
     provider: 'workers-ai-image',
+    type: 'text-to-image'
+}, {
+    id: '@cf/runwayml/stable-diffusion-v1-5-inpainting',
+    name: 'stable-diffusion-v1-5-inpainting',
+    provider: 'worker-ai-image',
     type: 'text-to-image'
 }, {
     id: '@cf/stabilityai/stable-diffusion-xl-base-1.0',
