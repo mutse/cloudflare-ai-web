@@ -65,12 +65,12 @@ export const textGenModels: Model[] = [{
     endpoint: 'chat/completions',
     type: 'chat'
 }, {
-    id: '@hf/meta/llama-3.1-8b-instruct',
+    id: '@cf/meta/llama-3.1-8b-instruc',
     name: 'Llama3.1-8b-instruct',
     provider: 'workers-ai',
     type: 'chat'
 }, {
-    id: '@hf/meta-llama/llama-3-8b-instruct',
+    id: '@cf/meta-llama/llama-3-8b-instruct',
     name: 'Llama3-8b-instruct',
     provider: 'workers-ai',
     type: 'chat'
