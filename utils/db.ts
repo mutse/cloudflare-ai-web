@@ -66,7 +66,7 @@ export const textGenModels: Model[] = [{
     type: 'chat'
 }, {
     id: '@cf/meta/llama-3.2-3b-instruct',
-    name: 'Llama3.1-8b-instruct',
+    name: 'Llama3.2-3b-instruct',
     provider: 'workers-ai',
     type: 'chat'
 }, {
@@ -128,7 +128,7 @@ export const imageGenModels: Model[] = [{
     type: 'text-to-image'
 }, {
     id: '@cf/black-forest-labs/flux-1-schnell',
-    name: 'stable-diffusion-v1-5-inpainting',
+    name: 'flux-1-schnell',
     provider: 'worker-ai-image',
     type: 'text-to-image'
 }, {
