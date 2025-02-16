@@ -65,6 +65,11 @@ export const textGenModels: Model[] = [{
     endpoint: 'chat/completions',
     type: 'chat'
 }, {
+   id: '@cf/deepseek-ai/deepseek-r1-distill-qwen-32b',
+   name: 'DeepSeek-R1-qwen:32b',
+   provider: 'workers-ai',
+   type: 'chat'
+}, {
     id: '@cf/meta/llama-3.2-3b-instruct',
     name: 'Llama3.2-3b-instruct',
     provider: 'workers-ai',
