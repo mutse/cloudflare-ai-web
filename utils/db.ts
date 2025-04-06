@@ -70,6 +70,11 @@ export const textGenModels: Model[] = [{
    provider: 'workers-ai',
    type: 'chat'
 }, {
+    id: '@cf/meta/llama-4-scout-17b-16e-instruct',
+    name: 'Llama-4-scout-17b-16e-instruct',
+    provider: 'workers-ai',
+    type: 'chat'
+}, {
     id: '@cf/meta/llama-3.2-3b-instruct',
     name: 'Llama3.2-3b-instruct',
     provider: 'workers-ai',
